@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<script src="/rclx_01/js/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="/rclx_01/css/swiper-bundle.min.css">
+<style type="text/css">
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        background-color: rgb(242, 244, 247);
+    }
+    
+    nav {
+        width: 750px;
+        height: 300px;
+        margin: 0 auto;
+        background-color: white;
+    }
+    
+    nav div h2 {
+        line-height: 80px;
+        text-align: center;
+        display: block;
+        font-size: 35px;
+        color: rgb(28, 28, 28);
+        font-weight: 400;
+        border-bottom: 1px solid rgb(234, 234, 234);
+        background-color: white;
+    }
+    
+    .box_2 ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 50px;
+    }
+    
+    .box_2 ul li p {
+        font-size: 25px;
+        margin-left: 23px;
+        color: rgb(112, 117, 121);
+    }
+    
+    .box_2 {
+        background-color: white;
+        width: 100%;
+    }
+    
+    .box_3 {
+        text-align: center;
+    }
+    
+    section {
+        background-color: white;
+        margin: 0 auto;
+        width: 750px;
+        height: 500px;
+        margin-top: 500px;
+    }
+    
+    .ko_1 {
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 16px;
+    }
+    
+    .ko_2 {
+        color: rgb(153, 153, 153);
+        font-size: 25px;
+        margin-left: 470px;
+    }
+    
+    .box_4 {
+        margin-top: 30px;
+        display: inline-block;
+        width: 730px;
+    }
+    
+    .box_4 ul {
+        list-style: none;
+        animation: move 6s linear infinite;
+        width: 1200px;
+    }
+    
+    .box_4 ul li img {
+        width: 300px;
+        height: 350px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    .box_4 li {
+        float: left;
+    }
+    
+    footer {
+        background-color: white;
+        width: 750px;
+        margin: 0 auto;
+        height: 500px;
+        margin-top: 15px;
+    }
+    
+    .box_6 ul li {
+        display: inline-block;
+        padding: 30px;
+        margin-left: 220px;
+    }
+    
+    .box_6 {
+        width: 1519px;
+        border: 1px solid rgb(204, 204, 204);
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .box_6 p {
+        font-size: 20px;
+        color: rgb(102, 102, 102);
+    }
+    
+    .box0 {
+        overflow: hidden;
+        width: 750;
+        height: 350px;
+    }
+    
+    .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+    }
+    /* @keyframes move{
+				from{transform: translate(0);}
+				to{transform: translate(-350px);}
+			} */
+</style>
+
+<body>
+    <nav>
+        <div class="box_1">
+            <h2>黑马面面</h2>
+        </div>
+        <div class="box_2">
+            <ul>
+                <li>
+                    <a href="#"><img src="../img/图片/icon1.png"></a>
+
+                    <p>HR面试</p>
+                </li>
+
+                <li>
+                    <a href="#"><img src="../img/图片/icon2.png"></a>
+                    <p>笔试</p>
+                </li>
+
+                <li>
+                    <a href="#"><img src="../img/图片/icon3.png"></a>
+                    <p>技术面试</p>
+                </li>
+
+                <li>
+                    <a href="#"><img src="../img/图片/icon4.png"></a>
+                    <p>技术面试</p>
+                </li>
+
+                <li>
+                    <a href="#"><img src="../img/图片/icon5.png"></a>
+                    <p>技术面试</p>
+                </li>
+
+                <li>
+                    <a href="#"><img src="../img/图片/icon6.png"></a>
+                    <p>技术面试</p>
+                </li>
+            </ul>
+            <div class="box_3">
+                <p><img src="../img/图片/go.png"></p>
+            </div>
+
+        </div>
+    </nav>
+    <section>
+        <div class="box_4">
+            <p><img src="../img/图片/i2.png"><span class="ko_1">就业指导</span>
+                <span class="ko_2">更多>></span>
+            </p>
+            <div class="box0">
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/花里胡哨/img/图片/ldh.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/花里胡哨/img/图片/pic.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/花里胡哨/img/图片/3.jpg" />
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="box_5">
+            <p><img src="../img/图片/i2.png"><span class="ko_1">充电学习</span>
+                <span class="ko_2">更多>></span>
+            </p>
+        </div>
+    </footer>
+    <div class="box_7	">
+
+
+        <div class="box_6">
+            <ul>
+                <li>
+                    <a href="#"><img src="../img/图片/home.png"></a>
+                    <p>首页</p>
+                </li>
+                <li>
+                    <a href="#"><img src="../img/图片/ms.png"></a>
+                    <p>模拟面试</p>
+                </li>
+                <li>
+                    <a href="#"><img src="../img/图片/net.png"></a>
+                    <p>技术面试</p>
+                </li>
+                <li>
+                    <a href="#"><img src="../img/图片/user.png"></a>
+                    <p>我的首页</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
+</html>
